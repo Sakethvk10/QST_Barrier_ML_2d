@@ -4,6 +4,7 @@ This project aims to find an optimized set of couplings such that quantum state 
 The code supports two lattice geometries:
  - Square grid lattice
  - Heavy-hex lattice
+
 Although both geometries are supported, the heavy-hex lattice generally performs less effectively due to its lower connectivity.
 The optimizer supports the transfer of both single-qubit quantum states and entangled quantum states, including Bell states.
 
@@ -37,6 +38,7 @@ The tuning process produces results in the results_gridsearch/ directory, includ
 * best_input.in — The optimized input configuration.
 * best_run_summary.txt — A summary of the optimization results.
 * fidelity_history.txt — The history of fidelity values throughout the optimization process.
+
 move best_input.in out of the results_gridsearch/ directory and use it as your input file. You can ignore the other two text files.
 ### 3. Run the optimized code
 Execute the program using:
